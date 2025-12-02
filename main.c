@@ -4,7 +4,6 @@
 
 int main(int argc, char **argv)
 {
-    // int arg
     for (int i = 1; i < argc; i++)
     {
         /*
