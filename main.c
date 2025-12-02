@@ -8,6 +8,8 @@ int main(int argc, char **argv)
     {
         /*
         1 = file descriptor (0 stands for std input, 1 for std output, 2 for std error)
+        argv = actually stores the arguments in form of individual characters like: "h" "e" "l" "l" ....
+        argc = (can also stand for argument count) counts the no. of arguments + 1 (+ 1 is the file path)
         */
         write(1, argv[i], strlen(argv[i]));
 
