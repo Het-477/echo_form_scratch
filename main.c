@@ -4,6 +4,7 @@
 
 int main(int argc, char **argv)
 {
+    // int arg
     for (int i = 1; i < argc; i++)
     {
         /*
@@ -21,6 +22,8 @@ int main(int argc, char **argv)
     }
 
     write(1, "\n", 1);
+
+    printf("Total no. of args: %d", argc);
 
     return 0;
 }
